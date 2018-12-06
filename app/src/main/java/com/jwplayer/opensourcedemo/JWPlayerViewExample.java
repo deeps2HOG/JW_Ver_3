@@ -61,7 +61,7 @@ public class JWPlayerViewExample extends AppCompatActivity implements VideoPlaye
 
         // Load a media source
         PlaylistItem pi = new PlaylistItem.Builder()
-                .file("http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8")
+                .file("https://hogcdn.akamaized.net/delivery/hls2/SARASWATIDEVI/SARASWATIDEVI_master.m3u8?hdnts=exp=1544122960~acl=/*~hmac=f65a2e11a6e707933fbd5503226ca2fd2aeaa2b86bf397560088f4387d1bd3f7")
                 .title("BipBop")
                 .description("A video player testing video.")
                 .build();
