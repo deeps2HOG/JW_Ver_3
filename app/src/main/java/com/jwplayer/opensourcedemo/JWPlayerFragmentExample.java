@@ -39,8 +39,8 @@ public class JWPlayerFragmentExample extends AppCompatActivity {
         TextView outputTextView = (TextView)findViewById(R.id.output);
 
         // Construct a new JWPlayerSupportFragment (since we're using AppCompatActivity)
-        mPlayerFragment = JWPlayerSupportFragment.newInstance(new PlayerConfig.Builder()
-                .file("https://hogcdn.akamaized.net/delivery/hls2/SARASWATIDEVI/SARASWATIDEVI_master.m3u8?hdnts=exp=1544122960~acl=/*~hmac=f65a2e11a6e707933fbd5503226ca2fd2aeaa2b86bf397560088f4387d1bd3f7")
+        mPlayerFragment = JWPlayerSupportFragment.newInstance(new PlayerConfig.Builder() //url for media id 9519
+                .file("https://hogcdn.akamaized.net/delivery/hls2/SARASWATIDEVI/SARASWATIDEVI_master.m3u8?hdnts=exp=1545085190~acl=/*~hmac=0574ccd656fa4e92ad5b120fc87c9d7e5db96dce1d89ddfea8b8f22128278b21")
                 .build());
 
         // Attach the Fragment to our layout
