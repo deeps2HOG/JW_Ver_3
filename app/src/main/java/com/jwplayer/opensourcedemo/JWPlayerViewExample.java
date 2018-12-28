@@ -60,8 +60,8 @@ public class JWPlayerViewExample extends AppCompatActivity implements VideoPlaye
         mEventHandler = new JWEventHandler(mPlayerView, outputTextView);
 
         // Load a media source
-        PlaylistItem pi = new PlaylistItem.Builder()//url for media id 9519
-                .file("https://hogcdn.akamaized.net/delivery/hls2/SARASWATIDEVI/SARASWATIDEVI_master.m3u8?hdnts=exp=1545085190~acl=/*~hmac=0574ccd656fa4e92ad5b120fc87c9d7e5db96dce1d89ddfea8b8f22128278b21")
+        PlaylistItem pi = new PlaylistItem.Builder()
+                .file("http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8")
                 .title("BipBop")
                 .description("A video player testing video.")
                 .build();
